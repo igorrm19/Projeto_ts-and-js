@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+      
+       body{
+        display: grid;
+        grid-template-areas: 
+        "head head"
+        "hio gut"
+        ;
+       }
+
+       .cabes{
+            background-color: rgb(255, 0, 0);
+            height: 100px;
+            width: 100px;
+            margin:  20px;
+            margin-left: 150px;
+            display: inline-flex;
+
+        }
+
+        .cab{
+            background-color: cornflowerblue;
+            height: 150px;
+            width: 100%;
+            display: flex;
+         
+        }
+
+        #mai{
+            grid-area: head;
+            margin-top: 20px;
+            background-color: chartreuse;
+            height: 550px;
+            width: 300px;
+            display: flex;
+           
+        }
+
+        #foo{
+            background-color: darkcyan;
+            margin-left: 320px;
+            margin-top: -550px;
+            height: 550px;
+            width: 948px;
+            display: flex;
+
+        }
+
+        #fi{
+            background-color: blueviolet;
+            margin-top: 20px;
+            height: 250px;
+            width: 100%;
+            display: flex;
+
+        } 
+
+       
+    </style>
+</head>
+<body>
+
+
+    <div class="cab" class="cabecalho"> 
+        <div class="cabes"></div>
+        <div class="cabes" ></div>
+        <div class="cabes"></div>
+        <div class="cabes"></div>
+    </div>
+
+    <div id="mai" class="main"></div>
+
+    <div id="foo" class="footer"></div>
+
+    <div id="fi" class="final"></div>
+
+    
+</body>
+</html>
